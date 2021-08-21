@@ -1,6 +1,6 @@
 # Contatooh
 
-Projeto: MEAN - Mongo, Express, Angular e Node
+Project: MEAN - Mongo, Express, Angular e Node
 
 Dependences: Bower
 
