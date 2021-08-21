@@ -1,0 +1,24 @@
+{
+  "name": "contatooh",
+  "description": "Livro MEAN",
+  "main": "index.js",
+  "authors": [
+    "Rony de Freitas"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-route": "^1.8.2",
+    "bootstrap": "^5.1.0",
+    "angular-resource": "^1.8.2"
+  }
+}
