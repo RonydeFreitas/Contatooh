@@ -2,4 +2,6 @@
 
 Projeto: MEAN - Mongo, Express, Angular e Node
 
-Run: <addr>npm install</addr>
+Dependences: Bower
+
+Run: <code>npm install</code> and <code>bower install</code>
