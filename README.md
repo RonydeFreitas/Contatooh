@@ -1,2 +1,5 @@
 # Contatooh
-MEAN - Mongo, Express, Angular e Node
+
+Projeto: MEAN - Mongo, Express, Angular e Node
+
+Run: <addr>npm install</addr>
