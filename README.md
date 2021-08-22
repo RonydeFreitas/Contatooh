@@ -2,7 +2,9 @@
 
 Project: MEAN - Mongo, Express, Angular e Node
 
-Dependences: Bower
+Dependences: 
+
+Need install MongoDB in your machine.
 
 Run for install: <code>npm install</code> and <code>bower install</code>
 
