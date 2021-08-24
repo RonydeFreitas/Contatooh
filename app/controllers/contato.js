@@ -5,7 +5,7 @@ module.exports = (app) => {
 
     controller.listaContatos = (req, res) => { 
         // var promise = Contato.find().exec();
-        Contato.find().exec()
+        Contato.find().populate('emergencia').exec()
         .then(contatos => {
             res.json(contatos);
         }, erro => {
@@ -38,6 +38,8 @@ module.exports = (app) => {
 
     controller.salvaContato = (req, res) => { 
         var _id = req.body._id;
+
+        req.body.emergencia = req.body.emergencia || null;
 
         if(_id) {
             Contato.findByIdAndUpdate(_id, req.body).exec()

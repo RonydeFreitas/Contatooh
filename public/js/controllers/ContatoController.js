@@ -23,6 +23,7 @@ angular.module('Contatooh').controller('ContatoController', function($scope, $ro
             $scope.message = {texto: 'Não foi possível salvar!'};
         })
     }
-    
-    // console.log($routeParams.contatoId)
+    Contato.query(contatos => {
+        $scope.contatos = contatos;
+    })
 });
